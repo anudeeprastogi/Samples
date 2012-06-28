@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Docs</key>
+	<dict>
+		<key>Doc1</key>
+		<dict>
+			<key>docIndex</key>
+			<string>1</string>
+			<key>content</key>
+			<string>This is the first document</string>
+			<key>titleName</key>
+			<string>My Doc 1</string>
+		</dict>
+		<key>Doc2</key>
+		<dict>
+			<key>docIndex</key>
+			<string>2</string>
+			<key>content</key>
+			<string>This is the second document</string>
+			<key>titleName</key>
+			<string>My Doc 2</string>
+		</dict>
+		<key>Doc3</key>
+		<dict>
+			<key>docIndex</key>
+			<string>3</string>
+			<key>content</key>
+			<string>This is the third document</string>
+			<key>titleName</key>
+			<string>My Doc 3</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

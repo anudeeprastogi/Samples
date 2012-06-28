@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC029B5155C0966008E038B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC029B4155C0966008E038B /* UIKit.framework */; };
+		3DC029B7155C0966008E038B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC029B6155C0966008E038B /* Foundation.framework */; };
+		3DC029B9155C0966008E038B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC029B8155C0966008E038B /* CoreGraphics.framework */; };
+		3DC029BF155C0966008E038B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DC029BD155C0966008E038B /* InfoPlist.strings */; };
+		3DC029C1155C0966008E038B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC029C0155C0966008E038B /* main.m */; };
+		3DC029C5155C0966008E038B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC029C4155C0966008E038B /* AppDelegate.m */; };
+		3DC029C8155C0966008E038B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC029C6155C0966008E038B /* MainStoryboard.storyboard */; };
+		3DC029CB155C0966008E038B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC029CA155C0966008E038B /* ViewController.m */; };
+		3DC029D3155C0966008E038B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC029D2155C0966008E038B /* SenTestingKit.framework */; };
+		3DC029D4155C0966008E038B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC029B4155C0966008E038B /* UIKit.framework */; };
+		3DC029D5155C0966008E038B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC029B6155C0966008E038B /* Foundation.framework */; };
+		3DC029DD155C0966008E038B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DC029DB155C0966008E038B /* InfoPlist.strings */; };
+		3DC029E0155C0966008E038B /* PreferencesIniCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC029DF155C0966008E038B /* PreferencesIniCloudTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC029D6155C0966008E038B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC029A7155C0966008E038B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC029AF155C0966008E038B;
+			remoteInfo = PreferencesIniCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DC029B0155C0966008E038B /* PreferencesIniCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreferencesIniCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC029B4155C0966008E038B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DC029B6155C0966008E038B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DC029B8155C0966008E038B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DC029BC155C0966008E038B /* PreferencesIniCloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreferencesIniCloud-Info.plist"; sourceTree = "<group>"; };
+		3DC029BE155C0966008E038B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DC029C0155C0966008E038B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DC029C2155C0966008E038B /* PreferencesIniCloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreferencesIniCloud-Prefix.pch"; sourceTree = "<group>"; };
+		3DC029C3155C0966008E038B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DC029C4155C0966008E038B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DC029C7155C0966008E038B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3DC029C9155C0966008E038B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DC029CA155C0966008E038B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DC029D1155C0966008E038B /* PreferencesIniCloudTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreferencesIniCloudTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC029D2155C0966008E038B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3DC029DA155C0966008E038B /* PreferencesIniCloudTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreferencesIniCloudTests-Info.plist"; sourceTree = "<group>"; };
+		3DC029DC155C0966008E038B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DC029DE155C0966008E038B /* PreferencesIniCloudTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencesIniCloudTests.h; sourceTree = "<group>"; };
+		3DC029DF155C0966008E038B /* PreferencesIniCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencesIniCloudTests.m; sourceTree = "<group>"; };
+		3DC029E9155C096E008E038B /* PreferencesIniCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PreferencesIniCloud.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC029AD155C0966008E038B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC029B5155C0966008E038B /* UIKit.framework in Frameworks */,
+				3DC029B7155C0966008E038B /* Foundation.framework in Frameworks */,
+				3DC029B9155C0966008E038B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC029CD155C0966008E038B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC029D3155C0966008E038B /* SenTestingKit.framework in Frameworks */,
+				3DC029D4155C0966008E038B /* UIKit.framework in Frameworks */,
+				3DC029D5155C0966008E038B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DC029A5155C0966008E038B = {
+			isa = PBXGroup;
+			children = (
+				3DC029BA155C0966008E038B /* PreferencesIniCloud */,
+				3DC029D8155C0966008E038B /* PreferencesIniCloudTests */,
+				3DC029B3155C0966008E038B /* Frameworks */,
+				3DC029B1155C0966008E038B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC029B1155C0966008E038B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC029B0155C0966008E038B /* PreferencesIniCloud.app */,
+				3DC029D1155C0966008E038B /* PreferencesIniCloudTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC029B3155C0966008E038B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DC029B4155C0966008E038B /* UIKit.framework */,
+				3DC029B6155C0966008E038B /* Foundation.framework */,
+				3DC029B8155C0966008E038B /* CoreGraphics.framework */,
+				3DC029D2155C0966008E038B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DC029BA155C0966008E038B /* PreferencesIniCloud */ = {
+			isa = PBXGroup;
+			children = (
+				3DC029E9155C096E008E038B /* PreferencesIniCloud.entitlements */,
+				3DC029C3155C0966008E038B /* AppDelegate.h */,
+				3DC029C4155C0966008E038B /* AppDelegate.m */,
+				3DC029C6155C0966008E038B /* MainStoryboard.storyboard */,
+				3DC029C9155C0966008E038B /* ViewController.h */,
+				3DC029CA155C0966008E038B /* ViewController.m */,
+				3DC029BB155C0966008E038B /* Supporting Files */,
+			);
+			path = PreferencesIniCloud;
+			sourceTree = "<group>";
+		};
+		3DC029BB155C0966008E038B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC029BC155C0966008E038B /* PreferencesIniCloud-Info.plist */,
+				3DC029BD155C0966008E038B /* InfoPlist.strings */,
+				3DC029C0155C0966008E038B /* main.m */,
+				3DC029C2155C0966008E038B /* PreferencesIniCloud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DC029D8155C0966008E038B /* PreferencesIniCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC029DE155C0966008E038B /* PreferencesIniCloudTests.h */,
+				3DC029DF155C0966008E038B /* PreferencesIniCloudTests.m */,
+				3DC029D9155C0966008E038B /* Supporting Files */,
+			);
+			path = PreferencesIniCloudTests;
+			sourceTree = "<group>";
+		};
+		3DC029D9155C0966008E038B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC029DA155C0966008E038B /* PreferencesIniCloudTests-Info.plist */,
+				3DC029DB155C0966008E038B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC029AF155C0966008E038B /* PreferencesIniCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC029E3155C0966008E038B /* Build configuration list for PBXNativeTarget "PreferencesIniCloud" */;
+			buildPhases = (
+				3DC029AC155C0966008E038B /* Sources */,
+				3DC029AD155C0966008E038B /* Frameworks */,
+				3DC029AE155C0966008E038B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreferencesIniCloud;
+			productName = PreferencesIniCloud;
+			productReference = 3DC029B0155C0966008E038B /* PreferencesIniCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC029D0155C0966008E038B /* PreferencesIniCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC029E6155C0966008E038B /* Build configuration list for PBXNativeTarget "PreferencesIniCloudTests" */;
+			buildPhases = (
+				3DC029CC155C0966008E038B /* Sources */,
+				3DC029CD155C0966008E038B /* Frameworks */,
+				3DC029CE155C0966008E038B /* Resources */,
+				3DC029CF155C0966008E038B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC029D7155C0966008E038B /* PBXTargetDependency */,
+			);
+			name = PreferencesIniCloudTests;
+			productName = PreferencesIniCloudTests;
+			productReference = 3DC029D1155C0966008E038B /* PreferencesIniCloudTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC029A7155C0966008E038B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3DC029AA155C0966008E038B /* Build configuration list for PBXProject "PreferencesIniCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DC029A5155C0966008E038B;
+			productRefGroup = 3DC029B1155C0966008E038B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC029AF155C0966008E038B /* PreferencesIniCloud */,
+				3DC029D0155C0966008E038B /* PreferencesIniCloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC029AE155C0966008E038B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC029BF155C0966008E038B /* InfoPlist.strings in Resources */,
+				3DC029C8155C0966008E038B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC029CE155C0966008E038B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC029DD155C0966008E038B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DC029CF155C0966008E038B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC029AC155C0966008E038B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC029C1155C0966008E038B /* main.m in Sources */,
+				3DC029C5155C0966008E038B /* AppDelegate.m in Sources */,
+				3DC029CB155C0966008E038B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC029CC155C0966008E038B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC029E0155C0966008E038B /* PreferencesIniCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC029D7155C0966008E038B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC029AF155C0966008E038B /* PreferencesIniCloud */;
+			targetProxy = 3DC029D6155C0966008E038B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DC029BD155C0966008E038B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC029BE155C0966008E038B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DC029C6155C0966008E038B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC029C7155C0966008E038B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3DC029DB155C0966008E038B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC029DC155C0966008E038B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DC029E1155C0966008E038B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Laura Blockey (Q844PC2HEB)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "462D676E-C74A-4934-B6A4-4A7B21B923E9";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DC029E2155C0966008E038B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Laura Blockey (Q844PC2HEB)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "462D676E-C74A-4934-B6A4-4A7B21B923E9";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC029E4155C0966008E038B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PreferencesIniCloud/PreferencesIniCloud.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreferencesIniCloud/PreferencesIniCloud-Prefix.pch";
+				INFOPLIST_FILE = "PreferencesIniCloud/PreferencesIniCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DC029E5155C0966008E038B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PreferencesIniCloud/PreferencesIniCloud.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreferencesIniCloud/PreferencesIniCloud-Prefix.pch";
+				INFOPLIST_FILE = "PreferencesIniCloud/PreferencesIniCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DC029E7155C0966008E038B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PreferencesIniCloud.app/PreferencesIniCloud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreferencesIniCloud/PreferencesIniCloud-Prefix.pch";
+				INFOPLIST_FILE = "PreferencesIniCloudTests/PreferencesIniCloudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3DC029E8155C0966008E038B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PreferencesIniCloud.app/PreferencesIniCloud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreferencesIniCloud/PreferencesIniCloud-Prefix.pch";
+				INFOPLIST_FILE = "PreferencesIniCloudTests/PreferencesIniCloudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC029AA155C0966008E038B /* Build configuration list for PBXProject "PreferencesIniCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC029E1155C0966008E038B /* Debug */,
+				3DC029E2155C0966008E038B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC029E3155C0966008E038B /* Build configuration list for PBXNativeTarget "PreferencesIniCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC029E4155C0966008E038B /* Debug */,
+				3DC029E5155C0966008E038B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DC029E6155C0966008E038B /* Build configuration list for PBXNativeTarget "PreferencesIniCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC029E7155C0966008E038B /* Debug */,
+				3DC029E8155C0966008E038B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DC029A7155C0966008E038B /* Project object */;
+}
